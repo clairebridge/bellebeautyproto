@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+    <title>Belle Beauty</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/sell.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </head>
+
+
+  <img src="img/logo.png" style="width:50%" class="center">
+  
+
+  
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div id="navbarCollapse" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Buy</a>
+            <div class="dropdown-menu">
+              <a href="index.html" class="dropdown-item">Makeup</a>
+              <div class="dropdown-divider"></div>
+              <a href="index.html" class="dropdown-item">Skincare</a>
+              <div class="dropdown-divider"></div>
+              <a href="index.html" class="dropdown-item">Fragrance</a>
+            </div>
+          </li>
+          <li class="nav-item active">
+            <a href="#" class="nav-link">Sell</a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav">
+          <li class="nav-item dropdown ">
+            <a href="#" class="nav-link" data-toggle="dropdown" >Profile</a>
+            <div class="dropdown-menu dropdown-menu-right">
+              <a href="#" class="dropdown-item">Settings</a>
+              <div class="dropdown-divider"></div>
+              <a href="#"class="dropdown-item">Manage Listings</a>
+              <div class="dropdown-divider"></div>
+              <a href="#"class="dropdown-item">Logout</a>
+            </div>
+          </li>
+        </ul>
+
+        <form class="navbar-form navbar-right">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+            <button type="submit" class="btn btn-default">
+              <i class="glyphicon glyphicon-search"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </nav>
+  
+
+  <img src="img/header2.gif" style="width:100%;">
+
+  <div>
+    <br>
+    <div class="sectionheading">
+      <a id="makeupsection">
+        <div class="itemheading";></div>
+      </a>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="box">
+      <div class="newlisting">
+        <h3>Create New Listing</h3>
+        <br>
+        <label for="title">What are you selling?</label>
+        <input type="text" id="title" name="title" placeholder="Title">
+        <label for="price">How much are you selling it for?</label>
+        <input type="text" id="price" name="price" placeholder="Price">
+        <label for="description">Describe what you are you selling:</label>
+        <textarea class="form-control" placeholder="Description"></textarea>
+        <br>
+        <br>
+        <label for="cars">What condition is your item in?</label>
+        <select id="condition" name="Condition">
+          <option value="New">New</option>
+          <option value="Used">Used</option>
+        </select>
+        <label for="type">Type Of Product:</label>
+        <select id="type" name="type">
+          <option value="Makeup">Makeup</option>
+          <option value="Skincare">Skincare</option>
+          <option value="Fragrance">Fragrance</option>
+        </select>
+        <hr>
+        <label for="myfile">Include images of your item:</label>
+        <input type="file" id="myfile" name="myfile">
+      </div>
+    </div>
+  </div>
+
+  <br>
+
+  <div class="wrapper">
+    <label>
+      <input type="checkbox" checked="checked" name="sameadr"> I have read and agree to the terms and conditions.
+    </label>
+    <input type="submit" value="Post Listing" class="button">
+  </div>
+
+  <br>
+
+  <footer>
+  <img src="img/final footer.png" style="width:1200px;height:200px" >
+  <p style="color:rgb(70, 70, 70)">Belle Beauty <i class="glyphicon glyphicon-copyright-mark"></i> 2020</p>
+  </footer>
+
+</html>

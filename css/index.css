@@ -1,0 +1,169 @@
+header{ 
+    text-align: right;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.main {
+  font-size: 28px;
+  padding: 10px 10px 5px 10px;
+}
+
+.sectionheading {
+  background-color: rgb(65, 65, 65);
+  font-family: 'Poppins', sans-serif;
+  font-size: 22px;
+}
+
+.itemimage{
+  width: 100%;
+  height: auto;
+}
+
+.itemblock{
+  display: inline-block;
+  width: 20%;
+  border: 1px solid rgb(230, 230, 230);
+  background-color: rgb(255, 255, 255);
+}
+
+.itemheading{
+  padding:10px;
+  color: white;
+}
+
+.itemblockheading{
+  font-size: 14px;
+  font-weight: 250;
+}
+
+.buybutton{
+  border-radius:15px;
+  border: 2px solid rgb(0, 0, 0);
+  font-size: 14px;
+  padding: 10px 35px;
+  margin-bottom: 20px;
+  }
+
+.outofstockbutton{
+  border-radius:15px;
+  border: 2px solid rgba(0, 0, 0, 0.377);
+  font-size: 14px;
+  padding: 10px 35px;
+  margin-bottom: 20px;
+}
+
+.viewallbutton{
+  border-radius:10px;
+  border: 2px solid rgba(172, 172, 172, 0.459);
+  font-size: 14px;
+  padding: 10px 45px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+footer {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+}
+
+.newlisting {
+        -ms-flex: 50%; /* IE10 */
+        flex: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+
+      .box {
+        -ms-flex: 75%; /* IE10 */
+        flex: 75%;
+      }
+
+      .newlisting,.box{
+        padding: 0 16px;
+        width: 50%;
+      }
+
+      .listingblock {
+        background-color: #f2f2f2;
+        padding: 10px 10px 10px 30px;
+        border: 1px solid lightgrey;
+        border-radius: 3px;
+      }
+
+      input[type=text] {
+        width: 100%;
+      }
+
+      label {
+        margin-bottom: 10px;
+        display: block;
+      }
+
+      .button {
+        background-color: rgb(85, 85, 85);
+        color: white;
+        padding: 12px;
+        margin: 10px 0;
+        border: none;
+        width: 50%;
+        border-radius: 3px;
+        cursor: pointer;
+        font-size: 17px;
+      }
+
+      .button:hover {
+        background-color: #45a049;
+      }
+
+      .center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+
+      .wrapper {
+        text-align: center;
+      }
+
+      .sectionheading {
+        background-color: rgb(87, 87, 87);
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+      }
+
+      .itemheading{
+        padding:20px;
+        color: white;
+        text-align:center;
+      }
+
+      footer {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(0, 0, 0);
+        text-align:center;
+      }
+
+      body {
+        overflow-x: hidden;
+      }
+
+      .hidden-thing {
+        position: absolute;
+        left: 100%;
+        width: 50px;
+        height: 50px;
+        opacity: 0;
+      }
